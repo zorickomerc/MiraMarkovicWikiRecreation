@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsla(191, 85%, 97%, 0.885);
+}
+
+header {
+    display: block;
+    height: 7rem;
+    margin-top: 2.4rem;
+}
+.zmajic {
+    margin-bottom: 0.25em;
+    padding: 2em 0em 0em 4em;
+}
+h1 {
+    font-size: 1.8em;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    line-height: 1.3;
+    font-weight: normal;
+    border-bottom: 0.7px black solid;
+    width: 90%;
+    padding-left: 7px;
+}
+
+.section-1 {
+    margin-top: 10px;
+    display: inline-block;
+    width: 76%;
+    padding: 0em 1em 0 2em;
+}
+.section-1 p {
+    font-size: 1.1em;
+    padding: 5px;
+}
+aside {
+    display: inline-block;
+    width: 23%;
+    float: right;
+}
+
+table {
+    width: 300px;
+}table img {
+    margin-top: 2px;
+    padding-bottom: -2px;
+}
+table thead, th {
+    background-color: lavender;
+}
+table td {
+    text-align: center;
+}
+table p {
+    padding: 5px;
+}
